@@ -44,6 +44,28 @@
             width: 100%;
             margin: 0 auto;
         }
+
+        .btn {
+            min-width: 140px;
+        }
+
+        .random-color-generator {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 400px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 6vh 0;
+        }
+
+        .output-screen-text {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 35px;
+            border-left: 3px solid;
+            cursor: pointer;
+            min-height: 100px;
+        }
     </style>
 </head>
 
@@ -55,10 +77,20 @@
                 <h1>JRBLACK MEDIA! </h1>
                 <h2>Create Awesome Color Gradient!</h2>
             </div>
+
+            <div class="random-color-generator">
+                <button class="btn btn-primary" id="btn1">#ffffff</button>
+                +
+                <button class="btn btn-primary" id="btn2">#000000</button>
+            </div>
+
+            <div class="output-screen-text">
+                background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+            </div>
         </div>
     </section>
 
-    <script src="index.js"></script>
+    <script src="index.js"></script>>
 
 </body>
 

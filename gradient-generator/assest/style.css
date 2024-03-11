@@ -7,7 +7,6 @@
 *:before {
     box-sizing: border-box;
     outline: none;
-    user-select: none
 }
 
 html {
@@ -48,4 +47,15 @@ h4 {
 
 .text-center {
     text-align: center;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    text-align: center;
+    padding: 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    min-width: 120px;
 }
